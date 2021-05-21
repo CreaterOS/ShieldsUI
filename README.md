@@ -101,6 +101,9 @@ shields.center = self.view.center;
 [self.view addSubview:shields];
 ```
 
+##  MIT License
+ MIT License
+ 
 ## Contribute to this project
 
 If you have a feature request or bug report, please feel free to send [863713745@qq.com](mailto:863713745@qq.com) to upload the problem, and we will provide you with revisions and help as soon as possible. Thank you very much for your support.
