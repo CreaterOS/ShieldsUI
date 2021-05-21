@@ -1,5 +1,9 @@
 # Shields
-
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/57015467be5941aa8bd521a2c460140a)](https://www.codacy.com/gh/CreaterOS/shields/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=CreaterOS/shields&amp;utm_campaign=Badge_Grade)
+[![standard-readme compliant](https://img.shields.io/badge/CODEBEAT-3.4GPA-brightgreen.svg?style=message&color=green)]()
+[![standard-readme compliant](https://img.shields.io/badge/Emblod-4.72-brightgreen.svg?style=message&color=green)]()
+[![standard-readme compliant](https://img.shields.io/badge/shields-CreaterOS-brightgreen.svg?style=CreaterOS&color=yellow)](https://github.com/CreaterOS/shields)
+[![standard-readme compliant](https://img.shields.io/badge/platform-ios-brightgreen.svg?style=info&color=orange)](https://github.com/CreaterOS/shields)
 ## Introduction
 
 Customize the personalized badge effect with simple configuration.
