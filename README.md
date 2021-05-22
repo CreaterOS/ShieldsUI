@@ -104,6 +104,43 @@ Shields *shields = [[Shields alloc] initWithFrame:CGRectMake(0, 0, 320, 40) styl
 shields.center = self.view.center;
 [self.view addSubview:shields];
 ```
+### 9. Json Config
+
+```objective-c
+{
+	"schemaVersion":1,
+	"label":"CreaterOS",
+	"message":"v1.0",
+	"labelBackgroundColor":{
+		"hex":"#8174D9",
+		"alpha":0.7
+	},
+	"messageBackgroundColor":{
+		"hex":"#81EBD9",
+		"alpha":0.7
+	},
+	"labelColor":{
+		"hex":"#B82B1D",
+		"alpha":1
+	},
+	"messageColor":{
+		"hex":"#FFFFFF",
+		"alpha":1
+	},
+	"logoName":"lanmei",
+	"logoWidth":25,
+	"logoPosition":{
+		"X":17,
+		"Y":20
+	}
+}
+```
+```objective-c
+Shields *shields = [[Shields alloc] initWithFrame:CGRectMake(0, 0, 320, 40) style:ShieldsLogo];
+[shields configWithJsonFilePath:[[NSBundle mainBundle] pathForResource:@"shields" ofType:@"json"]];
+shields.center = self.view.center;
+[self.view addSubview:shields];
+```
 
 ##  MIT License
  MIT License
