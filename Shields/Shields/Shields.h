@@ -36,6 +36,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)configLabel:(NSString *__nullable)label message:(NSString *__nullable)message labelBackgroundColor:(UIColor *__nullable)labelBackgroundColor messageBackgroundColor:(UIColor *__nullable)messageBackgroundColor labelColor:(UIColor *__nullable)labelColor messageColor:(UIColor *__nullable)messageColor logo:(UIImage *__nullable)logo logoWidth:(CGFloat)logoWidth logoPosition:(CGPoint)logoPosition;
 
+- (void)configWithJsonFilePath:(NSString *)jsonPath;
+
+- (void)configWithJsonFileURL:(NSURL *)jsonURL;
+
 @end
 
 NS_ASSUME_NONNULL_END

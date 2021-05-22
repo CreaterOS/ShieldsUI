@@ -21,6 +21,8 @@
 		04D8A173265754E9008332D6 /* ShieldsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8A172265754E9008332D6 /* ShieldsLabel.m */; };
 		04D8A176265754F1008332D6 /* ShieldsMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8A175265754F1008332D6 /* ShieldsMessage.m */; };
 		04D8A17826578D04008332D6 /* errorLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D8A17726578D04008332D6 /* errorLogo.png */; };
+		68D3510B2658AE0C00E2D485 /* UIColor+ShieldsHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D3510A2658AE0C00E2D485 /* UIColor+ShieldsHex.m */; };
+		68D351102658B97D00E2D485 /* shields.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D3510F2658B97D00E2D485 /* shields.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,9 @@
 		04D8A174265754F1008332D6 /* ShieldsMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShieldsMessage.h; sourceTree = "<group>"; };
 		04D8A175265754F1008332D6 /* ShieldsMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShieldsMessage.m; sourceTree = "<group>"; };
 		04D8A17726578D04008332D6 /* errorLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = errorLogo.png; sourceTree = "<group>"; };
+		68D351092658AE0C00E2D485 /* UIColor+ShieldsHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ShieldsHex.h"; sourceTree = "<group>"; };
+		68D3510A2658AE0C00E2D485 /* UIColor+ShieldsHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ShieldsHex.m"; sourceTree = "<group>"; };
+		68D3510F2658B97D00E2D485 /* shields.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shields.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,7 @@
 		04D8A134265752A3008332D6 /* Shields */ = {
 			isa = PBXGroup;
 			children = (
+				68D3510F2658B97D00E2D485 /* shields.json */,
 				04D8A16A265752D4008332D6 /* Shields */,
 				04D8A135265752A3008332D6 /* AppDelegate.h */,
 				04D8A136265752A3008332D6 /* AppDelegate.m */,
@@ -164,6 +170,8 @@
 				04D8A172265754E9008332D6 /* ShieldsLabel.m */,
 				04D8A174265754F1008332D6 /* ShieldsMessage.h */,
 				04D8A175265754F1008332D6 /* ShieldsMessage.m */,
+				68D351092658AE0C00E2D485 /* UIColor+ShieldsHex.h */,
+				68D3510A2658AE0C00E2D485 /* UIColor+ShieldsHex.m */,
 			);
 			path = Shields;
 			sourceTree = "<group>";
@@ -274,6 +282,7 @@
 				04D8A145265752A4008332D6 /* LaunchScreen.storyboard in Resources */,
 				04D8A142265752A4008332D6 /* Assets.xcassets in Resources */,
 				04D8A140265752A3008332D6 /* Main.storyboard in Resources */,
+				68D351102658B97D00E2D485 /* shields.json in Resources */,
 				04D8A17826578D04008332D6 /* errorLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +311,7 @@
 				04D8A13D265752A3008332D6 /* ViewController.m in Sources */,
 				04D8A137265752A3008332D6 /* AppDelegate.m in Sources */,
 				04D8A17026575486008332D6 /* Shields.m in Sources */,
+				68D3510B2658AE0C00E2D485 /* UIColor+ShieldsHex.m in Sources */,
 				04D8A173265754E9008332D6 /* ShieldsLabel.m in Sources */,
 				04D8A176265754F1008332D6 /* ShieldsMessage.m in Sources */,
 				04D8A16D26575321008332D6 /* ShieldsModel.m in Sources */,

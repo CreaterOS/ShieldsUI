@@ -1,0 +1,27 @@
+{
+	"schemaVersion":1,
+	"label":"CreaterOS",
+	"message":"v1.0",
+	"labelBackgroundColor":{
+		"hex":"#8174D9",
+		"alpha":0.7
+	},
+	"messageBackgroundColor":{
+		"hex":"#81EBD9",
+		"alpha":0.7
+	},
+	"labelColor":{
+		"hex":"#B82B1D",
+		"alpha":1
+	},
+	"messageColor":{
+		"hex":"#FFFFFF",
+		"alpha":1
+	},
+	"logoName":"lanmei",
+	"logoWidth":25,
+	"logoPosition":{
+		"X":17,
+		"Y":20
+	}
+}

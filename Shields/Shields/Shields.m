@@ -116,6 +116,30 @@
     }
 }
 
+#pragma mark - Json文件读取配置
+- (void)configWithJsonFilePath:(NSString *)jsonPath {
+    if (jsonPath.length != 0) {
+        [self configJsonWithData:[NSData dataWithContentsOfFile:jsonPath]];
+    }
+}
+
+- (void)configWithJsonFileURL:(NSURL *)jsonURL {
+    if (jsonURL != nil) {
+        [self configJsonWithData:[NSData dataWithContentsOfURL:jsonURL]];
+    }
+}
+
+- (void)configJsonWithData:(NSData *)data {
+    NSError *error = nil;
+    NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&error];
+    if (error != nil) {
+        NSLog(@"%@",error.localizedDescription);
+        return ;
+    }
+    
+    [self configWithModel:[ShieldsModel modelWithDict:dict]];
+}
+
 - (void)configWithModel:(ShieldsModel *)model {
     [self configLabel:model.label message:model.message labelBackgroundColor:model.labelBackgroundColor messageBackgroundColor:model.messageBackgroundColor labelColor:model.labelColor messageColor:model.messageColor logo:[UIImage imageNamed:model.logoName] logoWidth:model.logoWidth logoPosition:model.logoPosition];
 }
