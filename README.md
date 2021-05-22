@@ -5,11 +5,6 @@
 [![standard-readme compliant](https://img.shields.io/badge/shields-CreaterOS-brightgreen.svg?style=CreaterOS&color=yellow)](https://github.com/CreaterOS/shields)
 [![standard-readme compliant](https://img.shields.io/badge/platform-ios-brightgreen.svg?style=info&color=orange)](https://github.com/CreaterOS/shields)
 
-## Stargazers
-[![Stargazers repo roster for @CreaterOS/shields](https://reporoster.com/stars/CreaterOS/shields)](https://github.com/CreaterOS/shields/stargazers)
-## Forkers
-[![Forkers repo roster for @CreaterOS/shields](https://reporoster.com/forks/CreaterOS/shields)](https://github.com/CreaterOS/shields/network/members)
-
 ## Introduction
 
 Customize the personalized badge effect with simple configuration.
@@ -150,7 +145,13 @@ shields.center = self.view.center;
 
 ##  MIT License
  MIT License
- 
+
+## Stargazers
+[![Stargazers repo roster for @CreaterOS/shields](https://reporoster.com/stars/CreaterOS/shields)](https://github.com/CreaterOS/shields/stargazers)
+
+## Forkers
+[![Forkers repo roster for @CreaterOS/shields](https://reporoster.com/forks/CreaterOS/shields)](https://github.com/CreaterOS/shields/network/members)
+
 ## Contribute to this project
 
 If you have a feature request or bug report, please feel free to send [863713745@qq.com](mailto:863713745@qq.com) to upload the problem, and we will provide you with revisions and help as soon as possible. Thank you very much for your support.
