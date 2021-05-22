@@ -4,6 +4,12 @@
 [![standard-readme compliant](https://img.shields.io/badge/Emblod-4.72-brightgreen.svg?style=message&color=green)]()
 [![standard-readme compliant](https://img.shields.io/badge/shields-CreaterOS-brightgreen.svg?style=CreaterOS&color=yellow)](https://github.com/CreaterOS/shields)
 [![standard-readme compliant](https://img.shields.io/badge/platform-ios-brightgreen.svg?style=info&color=orange)](https://github.com/CreaterOS/shields)
+
+## Stargazers
+[![Stargazers repo roster for @CreaterOS/shields](https://reporoster.com/stars/CreaterOS/shields)](https://github.com/CreaterOS/shields/stargazers)
+## Forkers
+[![Forkers repo roster for @CreaterOS/shields](https://reporoster.com/forks/CreaterOS/shields)](https://github.com/CreaterOS/shields/network/members)
+
 ## Introduction
 
 Customize the personalized badge effect with simple configuration.
