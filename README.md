@@ -36,6 +36,8 @@ Customize the personalized badge effect with simple configuration.
 
 ### 1. Config Label text and Message text -- Default /  Logo
 
+#### Objective-C
+
 ```objective-c
 Shields *shields = [[Shields alloc] initWithFrame:CGRectMake(0, 0, 320, 40) style:ShieldsDefault];
 [shields configLabel:@"CreaterOS" message:@"v1.0"];
@@ -43,7 +45,19 @@ shields.center = self.view.center;
 [self.view addSubview:shields];
 ```
 
+#### Swift
+
+```swift
+let shields = Shields(frame: CGRect(x: 0, y: 0, width: 320, height: 40), style: .ShieldsDefault)
+shields.cornerRadius = 20
+shields.configLabel(label: "CreaterOS", message: "v1.0")
+shields.center = self.view.center
+view.addSubview(shields)
+```
+
 ### 2. Config Label Font Color -- Default /  Logo
+
+#### Objective-C
 
 ```objective-c
 Shields *shields = [[Shields alloc] initWithFrame:CGRectMake(0, 0, 320, 40) style:ShieldsDefault];
@@ -52,7 +66,19 @@ shields.center = self.view.center;
 [self.view addSubview:shields];
 ```
 
+#### Swift
+
+```swift
+let shields = Shields(frame: CGRect(x: 0, y: 0, width: 320, height: 40), style: .ShieldsDefault)
+shields.cornerRadius = 20
+shields.configLabel(label: "CreaterOS", message: "v1.0", labelColor: UIColor(red: 86/255.0, green: 88/255.0, blue: 224/255.0, alpha: 1.0))
+shields.center = self.view.center
+view.addSubview(shields)
+```
+
 ### 3. Config Message Font Color -- Default /  Logo
+
+#### Objective-C
 
 ```objective-c
 Shields *shields = [[Shields alloc] initWithFrame:CGRectMake(0, 0, 320, 40) style:ShieldsDefault];
@@ -61,7 +87,19 @@ shields.center = self.view.center;
 [self.view addSubview:shields];
 ```
 
+#### Swift
+
+```swift
+let shields = Shields(frame: CGRect(x: 0, y: 0, width: 320, height: 40), style: .ShieldsDefault)
+shields.cornerRadius = 20
+shields.configLabel(label: "CreaterOS", message: "v1.0", messageColor: UIColor(red: 86/255.0, green: 88/255.0, blue: 224/255.0, alpha: 1.0))
+shields.center = self.view.center
+view.addSubview(shields)
+```
+
 ### 4.Config Label Background Color -- Default /  Logo
+
+#### Objective-C
 
 ```objective-c
 Shields *shields = [[Shields alloc] initWithFrame:CGRectMake(0, 0, 320, 40) style:ShieldsDefault];
@@ -70,7 +108,19 @@ shields.center = self.view.center;
 [self.view addSubview:shields];
 ```
 
+#### Swift
+
+```swift
+let shields = Shields(frame: CGRect(x: 0, y: 0, width: 320, height: 40), style: .ShieldsDefault)
+shields.cornerRadius = 20
+shields.configLabel(label: "CreaterOS", message: "v1.0", labelBackgroundColor: UIColor(red: 241/255.0, green: 176/255.0, blue: 101/255.0, alpha: 1.0))
+shields.center = self.view.center
+view.addSubview(shields)
+```
+
 ### 5.Config Message Background Color -- Default /  Logo
+
+#### Objective-C
 
 ```objective-c
 Shields *shields = [[Shields alloc] initWithFrame:CGRectMake(0, 0, 320, 40) style:ShieldsDefault];
@@ -79,7 +129,19 @@ shields.center = self.view.center;
 [self.view addSubview:shields];
 ```
 
+#### Swift
+
+```swift
+let shields = Shields(frame: CGRect(x: 0, y: 0, width: 320, height: 40), style: .ShieldsDefault)
+shields.cornerRadius = 20
+shields.configLabel(label: "CreaterOS", message: "v1.0", messageBackgroundColor: UIColor(red: 241/255.0, green: 176/255.0, blue: 101/255.0, alpha: 1.0))
+shields.center = self.view.center
+view.addSubview(shields)
+```
+
 ### 6.Config Label And Message Background Color -- Default /  Logo
+
+#### Objective-C
 
 ```objective-c
 Shields *shields = [[Shields alloc] initWithFrame:CGRectMake(0, 0, 320, 40) style:ShieldsDefault];
@@ -88,7 +150,19 @@ shields.center = self.view.center;
 [self.view addSubview:shields];
 ```
 
+#### Swift
+
+```swift
+let shields = Shields(frame: CGRect(x: 0, y: 0, width: 320, height: 40), style: .ShieldsDefault)
+shields.cornerRadius = 20
+shields.configLabel(label: "CreaterOS", message: "v1.0", labelBackgroundColor: UIColor(red: 241/255.0, green: 176/255.0, blue: 101/255.0, alpha: 1.0), messageBackgroundColor: UIColor(red: 88/255.0, green: 88/255.0, blue: 101/255.0, alpha: 1.0))
+shields.center = self.view.center
+view.addSubview(shields)
+```
+
 ### 7.Config Label And Message -- Default /  Logo
+
+#### Objective-C
 
 ```objective-c
 Shields *shields = [[Shields alloc] initWithFrame:CGRectMake(0, 0, 320, 40) style:ShieldsDefault];
@@ -97,7 +171,19 @@ shields.center = self.view.center;
 [self.view addSubview:shields];
 ```
 
+#### Swift
+
+```swift
+let shields = Shields(frame: CGRect(x: 0, y: 0, width: 320, height: 40), style: .ShieldsDefault)
+shields.cornerRadius = 20
+shields.configLabel(label: "CreaterOS", message: "v1.0", labelBackgroundColor: UIColor(red: 241/255.0, green: 176/255.0, blue: 101/255.0, alpha: 1.0), messageBackgroundColor: UIColor(red: 88/255.0, green: 88/255.0, blue: 101/255.0, alpha: 1.0), labelColor: .white, messageColor: .white)
+shields.center = self.view.center
+view.addSubview(shields)
+```
+
 ### 8. Config Logo
+
+#### Objective-C
 
 ```objective-c
 Shields *shields = [[Shields alloc] initWithFrame:CGRectMake(0, 0, 320, 40) style:ShieldsLogo];
@@ -105,6 +191,16 @@ Shields *shields = [[Shields alloc] initWithFrame:CGRectMake(0, 0, 320, 40) styl
 shields.center = self.view.center;
 [self.view addSubview:shields];
 ```
+#### Swift
+
+```swift
+let shields = Shields(frame: CGRect(x: 0, y: 0, width: 320, height: 40), style: .ShieldsLogo)
+shields.cornerRadius = 20
+shields.configLabel(label: "CreaterOS", message: "v1.0", labelBackgroundColor: UIColor(red: 241/255.0, green: 176/255.0, blue: 101/255.0, alpha: 1.0), messageBackgroundColor: UIColor(red: 88/255.0, green: 88/255.0, blue: 101/255.0, alpha: 1.0), labelColor: .white, messageColor: .white, logo: UIImage(named: "lanmei"), logoWidth: 25.0, logoPosition: CGPoint(x: 15, y: 15))
+shields.center = self.view.center
+view.addSubview(shields)
+```
+
 ### 9. Json Config
 
 ```objective-c
@@ -136,6 +232,8 @@ shields.center = self.view.center;
 	}
 }
 ```
+#### Objective-C
+
 ```objective-c
 Shields *shields = [[Shields alloc] initWithFrame:CGRectMake(0, 0, 320, 40) style:ShieldsLogo];
 [shields configWithJsonFilePath:[[NSBundle mainBundle] pathForResource:@"shields" ofType:@"json"]];
@@ -143,7 +241,18 @@ shields.center = self.view.center;
 [self.view addSubview:shields];
 ```
 
+#### Swift
+
+```swift
+let shields = Shields(frame: CGRect(x: 0, y: 0, width: 320, height: 40), style: .ShieldsLogo)
+shields.cornerRadius = 20
+shields.configWithJsonFilePath(jsonPath: Bundle.main.path(forResource: "shields", ofType: "json")!)
+shields.center = self.view.center
+view.addSubview(shields)
+```
+
 ##  MIT License
+
  MIT License
 
 ## Stargazers
