@@ -259,7 +259,7 @@ view.addSubview(shields)
 [![Stargazers repo roster for @CreaterOS/shields](https://reporoster.com/stars/CreaterOS/shields)](https://github.com/CreaterOS/shields/stargazers)
 
 ## Forkers
-[![Forkers repo roster for @CreaterOS/shields](https://reporoster.com/forks/CreaterOS/shields)](https://github.com/CreaterOS/shields/network/members)
+[![Forkers repo roster for @CreaterOS/shields](https://reporoster.com/forks/CreaterOS/shields)](https://github.com/CreaterOS/shields/network/members) [![Join the chat at https://gitter.im/shields_button/community](https://badges.gitter.im/shields_button/community.svg)](https://gitter.im/shields_button/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Contribute to this project
 
